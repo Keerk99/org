@@ -1,0 +1,21 @@
+.lista-opcines {
+    margin: 24px 0;
+}
+
+.lista-opcines label {
+    display: block;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.lista-opcines select {
+    background: #FFFFFF;
+    width: 100%;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.06);
+    border: none;
+    outline-color: #6278F7;
+    padding: 30px 20px;
+    font-size: 16px;
+}
