@@ -3,6 +3,8 @@ import "./Form.css";
 import Campo from "../campo";
 import ListaOpciones from "../listaOpciones";
 import Boton from "../boton";
+import { v4 as uuid } from 'uuid';
+
 
 function Formulario(props) {
 
@@ -18,6 +20,7 @@ function Formulario(props) {
     const manejarEnvio = (e) => {
         e.preventDefault();
         let datosAEnviar = {
+            id: uuid(),
             nombre, //name : nombre,
             puesto, //occupation: puesto,
             foto, //photo : foto
